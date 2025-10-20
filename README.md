@@ -1,70 +1,31 @@
-# learn-git - Internship Contributing Guide
+# learn-git - Internship Contributing Guide By Nadraht Mohammed
 
-Intern Contribution Guide
+Welcome to the TeamUp LMS Internship Project! This guide helps interns contribute effectively.
 
-Welcome to the TeamUp LMS Internship Project!
-This guide helps interns contribute effectively and maintain a clean collaboration workflow.
+## 1. Branching
+- Create a new branch for each task.
+- Use clear names: `feature/<desc>`, `fix/<desc>`, `docs/<desc>`.
+- Example: `docs/update-readme`, `feature/add-login-page`.
 
-1. Creating Your Branch
+## 2. Commits
+- Use short, descriptive messages: `<type>: <what you changed>`.
+- Example: `docs: add intern contribution guide`, `fix: correct dashboard layout issue`.
 
-Always create a new branch for each task.
+## 3. Pull Requests (PR)
+- Push your branch: `git push origin <branch-name>`.
+- Open a PR to `main`.
+- Add a clear title and description.
+- Tag your reviewer and respond to feedback.
 
-Use clear naming:
-
-feature/<short-description>
-fix/<short-description>
-docs/<short-description>
-
-
-Example: docs/update-readme or feature/add-login-page
-
-2. Making Commits
-
-Write short, descriptive commit messages following this format:
-
-<type>: <what you changed>
+## 4. After Approval
+- Merge the PR and delete the branch (local & remote).
+- Keep `main` updated
 
 
-Example:
+## 5. Professional Collaboration
+- Communicate clearly and respectfully.
+- Follow deadlines and maintain consistent formatting.
 
-docs: add intern contribution guide
+## 6. Contributors
+- Nadraht Mohammed
 
-fix: correct dashboard layout issue
-
-3. Opening a Pull Request (PR)
-
-Push your branch to GitHub using:
-
-git push origin <branch-name>
-
-
-Open a Pull Request (PR) to the main branch.
-
-Add a short PR title and describe your changes clearly.
-
-Tag your reviewer (e.g., @supervisor-name).
-
-Respond politely to review comments and push updates as needed.
-
-4. After Approval
-
-Merge the PR once approved.
-
-Delete your branch (both locally and remotely).
-
-Keep your local main branch updated by pulling regularly:
-
-git checkout main
-git pull origin main
-
-5. Professional Collaboration
-
-Communicate respectfully and clearly.
-
-Follow deadlines and update your reviewer if you’re stuck.
-
-Maintain consistent formatting and documentation style.
-
-6. Contributors
-
-Nadraht Mohammed
