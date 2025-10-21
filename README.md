@@ -6,3 +6,34 @@ I look forward to  your contribution! Follow these steps to get started:
 2. Clone your fork locally:
    ```bash
    git clone https://github.com/<your-username>/learn-git.git
+## Intern Contribution Guide
+
+# 1. Fork this repository
+   - Click the “Fork” button on the top-right corner of the repository page.
+
+# 2. Clone your forked repository
+   
+   git clone https://github.com/<your-username>/learn-git.git
+   cd learn-git
+
+
+# 3. Create a new branch for your updates
+
+git checkout -b docs/update-readme
+
+# 4.  Make your changes and commit
+git add README.md
+git commit -m "docs: update intern contribution guide"
+
+# 5.Push your branch to GitHub
+git push origin docs/update-readme
+
+# 6. Open a Pull Request (PR)
+Go to your forked repo on GitHub and click “Compare & pull request.”
+
+Add a clear title and description for your PR.
+
+Request a review and respond professionally.
+
+# Contributors
+Etim Antai (@Etim-Antai)
