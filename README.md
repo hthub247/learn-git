@@ -1,45 +1,39 @@
-# learn-git
-My Guide
-I look forward to  your contribution! Follow these steps to get started:
+# learn-git - Internship Contributing Guide
 
-1. Fork this repository to your GitHub account.
-2. Clone your fork locally:
+Welcome to the TeamUp LMS Internship Project! This guide helps interns contribute effectively.
+## 1. Fork this repository
+- Click the “Fork” button on the top-right corner of the repository page.
+
+## 2. Clone your fork locally:
    ```bash
 
    git clone https://github.com/<your-username>/learn-git.git
 
-   
-## Contributor
-Lilian Obi (@Lilianobi)
+## 3. Branching
+- Create a new branch for each task.
+- Use clear names: `feature/<desc>`, `fix/<desc>`, `docs/<desc>`.
+- Example: `docs/update-readme`, `feature/add-login-page`.
 
-## Intern Contribution Guide
+## 4. Commits
+- Use short, descriptive messages: `<type>: <what you changed>`.
+- Example: `docs: add intern contribution guide`, `fix: correct dashboard layout issue`.
 
-# 1. Fork this repository
-   - Click the “Fork” button on the top-right corner of the repository page.
+## 5. Pull Requests (PR)
+- Push your branch: `git push origin <branch-name>`.
+- Open a PR to `main`.
+- Add a clear title and description.
+- Tag your reviewer and respond to feedback.
 
-# 2. Clone your forked repository
-   
-   git clone https://github.com/<your-username>/learn-git.git
-   cd learn-git
+## 6. After Approval
+- Merge the PR and delete the branch (local & remote).
+- Keep `main` updated
 
 
-# 3. Create a new branch for your updates
+## 7. Professional Collaboration
+- Communicate clearly and respectfully.
+- Follow deadlines and maintain consistent formatting.
 
-git checkout -b docs/update-readme
-
-# 4.  Make your changes and commit
-git add README.md
-git commit -m "docs: update intern contribution guide"
-
-# 5.Push your branch to GitHub
-git push origin docs/update-readme
-
-# 6. Open a Pull Request (PR)
-Go to your forked repo on GitHub and click “Compare & pull request.”
-
-Add a clear title and description for your PR.
-
-Request a review and respond professionally.
-
-# Contributors
-Etim Antai (@Etim-Antai)
+## Contributors
+- Nadraht Mohammed
+- Etim Antai (@Etim-Antai)
+- Lilian Obi (@Lilianobi)
