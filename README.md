@@ -44,6 +44,3 @@ Request a review and respond professionally.
 # Contributors
 Etim Antai (@Etim-Antai)
 Tobechukwu Emelife (@tobekami)
-
-simulation: "My change from feature/conflict-resolution-practice branch"
-simulation: "Teammate's change from main branch"
