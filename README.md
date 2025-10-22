@@ -1,45 +1,34 @@
 # learn-git
-My Guide
-I look forward to  your contribution! Follow these steps to get started:
+# Responsive Fix Notes
+This change simulates fixing layout issues for small screens.
 
-1. Fork this repository to your GitHub account.
-2. Clone your fork locally:
-   ```bash
+### Sample CSS Fixes for Mobile Responsiveness
 
-   git clone https://github.com/<your-username>/learn-git.git
+```css
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    .revenue-trends-container {
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        width: 100%;
+    }
 
-   
-## Contributor
-Lilian Obi (@Lilianobi)
+    .header-container {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-## Intern Contribution Guide
+    .notification-panel {
+        right: 0;
+        max-width: 100%;
+    }
 
-# 1. Fork this repository
-   - Click the “Fork” button on the top-right corner of the repository page.
-
-# 2. Clone your forked repository
-   
-   git clone https://github.com/<your-username>/learn-git.git
-   cd learn-git
-
-
-# 3. Create a new branch for your updates
-
-git checkout -b docs/update-readme
-
-# 4.  Make your changes and commit
-git add README.md
-git commit -m "docs: update intern contribution guide"
-
-# 5.Push your branch to GitHub
-git push origin docs/update-readme
-
-# 6. Open a Pull Request (PR)
-Go to your forked repo on GitHub and click “Compare & pull request.”
-
-Add a clear title and description for your PR.
-
-Request a review and respond professionally.
-
-# Contributors
-Etim Antai (@Etim-Antai)
+    .menu-button {
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #000;
+    }
+}
